@@ -70,9 +70,21 @@ nav li a:hover, nav li a:active{
     color: white;
     
 }
+.motivational h2, .motivational span{
+    display: flex;
+    flex-shrink: 0;
+}
 
-.filter h2{
+.motivational h2{
     font-weight: 200;
+    
+}
+
+.motivational{
+    height: 100%;
+    padding-left: 50px;
+    padding-bottom: 10%;
+    padding-top: 20%;
 }
 
 /* MAIN */
