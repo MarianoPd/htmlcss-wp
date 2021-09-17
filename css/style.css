@@ -11,14 +11,14 @@
 .container{
     width: 70%;  
     margin: auto;  
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 /* HEADER */
@@ -26,12 +26,10 @@
 /* top */
 
 .top, .jumbotron{
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
-
-
-.titolo .logo{
+.logo{
     height: 60px;
 }
 
@@ -40,7 +38,7 @@ nav{
 }
 nav li {
     display:inline;
-    margin-right: 10px;
+    margin-right: 1%;
   }
 
 nav li a, nav li a:visited{
@@ -60,7 +58,7 @@ nav li a:hover, nav li a:active{
 }
 
 .jumbotron{    
-    height: 400px;
+    height: 40%;
     background-image: url("../img/banner.jpg");        
 }
 
@@ -71,18 +69,16 @@ nav li a:hover, nav li a:active{
     
 }
 .motivational h2, .motivational span{
-    display: flex;
     flex-shrink: 0;
 }
 
 .motivational h2{
-    font-weight: 200;
-    
+    font-weight: 200;    
 }
 
 .motivational{
     height: 100%;
-    padding-left: 50px;
+    padding-left: 5%;
     padding-bottom: 10%;
     padding-top: 20%;
 }
@@ -95,12 +91,12 @@ main{
 /* tutti gli elementi nel menu' ricevono uguale colore e margine inferiore */
 main > *{
      
-    margin-bottom: 10px;   
+    margin-bottom: 5%;   
 }
 
 /* titolo */
 .title{
-    height: 70px;
+    height: 10%;
 }
 
 .title h1{
@@ -113,13 +109,9 @@ main > *{
     font-size: 18px;
 }
 
-.content{
-    /* background-color: steelblue; */
-}
-
 .content > *{
     float:left;
-    min-height: 400px;
+    min-height: 40%;
 }
 
 .content h3{
@@ -127,20 +119,22 @@ main > *{
     margin-bottom: 12px;
 }
 
-div.image{
-    height: 200px;
-}
-
 .side{
     width: 19%;
 }
 
-.one{
-    background-image: url("../img/img-1.jpg");
-
+/* le immagini del content */
+div.image{
+    height: 200px;
 }
 
+.one{
+    background-image: url("../img/img-1.jpg");
+}
 
+.center, .side{
+    height: 100%;
+}
 .center{
     width: 60%;
     margin: 0 1%;
@@ -154,7 +148,8 @@ div.image{
     background-image: url("../img/img-3.jpg");
 }
 
-span.testo{
+/* testo del content */
+span.text{
     color: gray;
     font-size: 18px; 
 }
@@ -162,7 +157,7 @@ span.testo{
 
 footer{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 footer span{
