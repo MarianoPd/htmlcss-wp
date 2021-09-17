@@ -29,9 +29,7 @@
     margin-bottom: 20px;
 }
 
-/* .top{    
-    min-height: 50px;    
-} */
+
 
 .titolo .logo{
     height: 60px;
@@ -55,40 +53,56 @@ nav li a:hover, nav li a:active{
     color: orange;
 }
 
-
-
 /* jumbotron */
-.jumbotron{    
-    min-height: 400px;
-    background-image: url("../img/banner.jpg");
+.jumbotron, .image{
     background-position: center;  
-    background-size: cover;     
+    background-size: cover; 
+}
+
+.jumbotron{    
+    height: 400px;
+    background-image: url("../img/banner.jpg");        
 }
 
 .filter{
-    height: 400px;
+    height: 100%;
     background-color: rgba(46, 15, 15, 0.233);
     color: white;
+    
+}
+
+.filter h2{
+    font-weight: 200;
 }
 
 /* MAIN */
 main{
-    background-color: steelblue;
+    
 }
 
 /* tutti gli elementi nel menu' ricevono uguale colore e margine inferiore */
-main  *{
-    background-color: turquoise; 
+main > *{
+     
     margin-bottom: 10px;   
 }
 
 /* titolo */
 .title{
-    height: 50px;
+    height: 70px;
+}
+
+.title h1{
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+.title span{
+    color: gray;
+    font-size: 18px;
 }
 
 .content{
-    background-color: steelblue;
+    /* background-color: steelblue; */
 }
 
 .content > *{
@@ -96,18 +110,50 @@ main  *{
     min-height: 400px;
 }
 
+.content h3{
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+div.image{
+    height: 200px;
+}
+
 .side{
     width: 19%;
 }
+
+.one{
+    background-image: url("../img/img-1.jpg");
+
+}
+
 
 .center{
     width: 60%;
     margin: 0 1%;
 }
 
+.two{
+    background-image: url("../img/banner-2.jpg");
+}
+
+.three{
+    background-image: url("../img/img-3.jpg");
+}
+
+span.testo{
+    color: gray;
+    font-size: 18px; 
+}
 /* FOOTER */
 
 footer{
     text-align: center;
     margin-bottom: 20px;
+}
+
+footer span{
+    color:red;
+    font-size: 25px;
 }
