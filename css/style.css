@@ -28,13 +28,12 @@
 .top, .jumbotron{
     margin-bottom: 2%;
 }
-
-.logo{
-    height: 60px;
+img.logo{
+    width: 30%;    
 }
 
 nav{
-    margin-top: 30px;
+    margin-top: 5%;
 }
 nav li {
     display:inline;
@@ -58,8 +57,7 @@ nav li a:hover, nav li a:active{
 }
 
 .jumbotron{    
-    height: 40%;
-    background-image: url("../img/banner.jpg");        
+    background-image: url("../img/banner.jpg");            
 }
 
 .filter{
@@ -95,9 +93,6 @@ main > *{
 }
 
 /* titolo */
-.title{
-    height: 10%;
-}
 
 .title h1{
     font-weight:bolder;
@@ -107,6 +102,10 @@ main > *{
 .title span{
     color: gray;
     font-size: 18px;
+}
+
+.content{
+    height: 400%;
 }
 
 .content > *{
@@ -126,6 +125,7 @@ main > *{
 /* le immagini del content */
 div.image{
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .one{
