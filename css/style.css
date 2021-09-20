@@ -29,7 +29,10 @@
     margin-bottom: 2%;
 }
 img.logo{
-    width: 30%;    
+    width: 30%;  
+    border-radius: 0;
+    padding-right: 2%;
+    border-right: 1px solid lightgray;  
 }
 
 nav{
